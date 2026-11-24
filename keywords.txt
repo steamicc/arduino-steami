@@ -172,6 +172,7 @@ busy	KEYWORD2
 clearConfig	KEYWORD2
 writeConfig	KEYWORD2
 readConfig	KEYWORD2
+hasConfigZone	KEYWORD2
 
 #######################################
 # Public constants
@@ -519,6 +520,29 @@ SET_DISP_MODE_NORMAL	LITERAL1
 SET_DISP_MODE_INVERSE	LITERAL1
 REG_CMD	LITERAL1
 REG_DATA	LITERAL1
+SteamiConfig	KEYWORD1
+TemperatureCalibration	KEYWORD1
+MagnetometerCalibration	KEYWORD1
+AccelerometerCalibration	KEYWORD1
+begin	KEYWORD2
+load	KEYWORD2
+save	KEYWORD2
+clear	KEYWORD2
+setBoardRevision	KEYWORD2
+boardRevision	KEYWORD2
+setBoardName	KEYWORD2
+boardName	KEYWORD2
+setTemperatureCalibration	KEYWORD2
+getTemperatureCalibration	KEYWORD2
+applyTemperatureCalibration	KEYWORD2
+setMagnetometerCalibration	KEYWORD2
+getMagnetometerCalibration	KEYWORD2
+setAccelerometerCalibration	KEYWORD2
+getAccelerometerCalibration	KEYWORD2
+applyAccelerometerCalibration	KEYWORD2
+setBootCount	KEYWORD2
+bootCount	KEYWORD2
+incrementBootCount	KEYWORD2
 #######################################
 # Syntax Coloring Map for VL53L1X
 #######################################
