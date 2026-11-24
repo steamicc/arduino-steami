@@ -10,6 +10,7 @@
 #include "MCP23009E.h"
 #include "SSD1327.h"
 #include "SteamiConfig.h"
+#include "SteamiGC9A01.h"
 #include "VL53L1X.h"
 #include "WSEN_PADS.h"
 #include "WsenHids.h"
