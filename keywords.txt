@@ -153,14 +153,14 @@ BQ27441_I2C_ADDRESS	LITERAL1
 BQ27441_DEVICE_ID	LITERAL1
 LIPO_BATTERY_CAPACITY	LITERAL1
 #######################################
-# Syntax Coloring Map for DaplinkBridge
+# Syntax Coloring Map for SteamiDaplinkBridge
 #######################################
 
 #######################################
 # Class
 #######################################
 
-DaplinkBridge	KEYWORD1
+SteamiDaplinkBridge	KEYWORD1
 
 #######################################
 # Public methods
@@ -173,6 +173,11 @@ clearConfig	KEYWORD2
 writeConfig	KEYWORD2
 readConfig	KEYWORD2
 hasConfigZone	KEYWORD2
+waitReady	KEYWORD2
+sendCommand	KEYWORD2
+commandSucceeded	KEYWORD2
+readError	KEYWORD2
+readResponse	KEYWORD2
 
 #######################################
 # Public constants
@@ -181,6 +186,38 @@ hasConfigZone	KEYWORD2
 DAPLINK_BRIDGE_DEFAULT_ADDR	LITERAL1
 DAPLINK_BRIDGE_CONFIG_SIZE	LITERAL1
 DAPLINK_BRIDGE_MAX_WRITE_CHUNK	LITERAL1
+#######################################
+# Syntax Coloring Map for SteamiDaplinkFlash
+#######################################
+
+#######################################
+# Class
+#######################################
+
+SteamiDaplinkFlash	KEYWORD1
+
+#######################################
+# Public methods
+#######################################
+
+begin	KEYWORD2
+setFilename	KEYWORD2
+getFilename	KEYWORD2
+clearFlash	KEYWORD2
+write	KEYWORD2
+writeLine	KEYWORD2
+readSector	KEYWORD2
+read	KEYWORD2
+
+#######################################
+# Public constants
+#######################################
+
+DAPLINK_FLASH_SECTOR_SIZE	LITERAL1
+DAPLINK_FLASH_MAX_SECTORS	LITERAL1
+DAPLINK_FLASH_FILE_SIZE	LITERAL1
+DAPLINK_FLASH_FILENAME_LEN	LITERAL1
+DAPLINK_FLASH_EXT_LEN	LITERAL1
 #######################################
 # Syntax Coloring Map for GC9A01
 #######################################
