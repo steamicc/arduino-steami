@@ -6,7 +6,7 @@
 # Datatypes (KEYWORD1)
 #######################################
 
-APDS9960	KEYWORD1
+SteamiAPDS9960	KEYWORD1
 Gesture	KEYWORD1
 Mode	KEYWORD1
 AmbientLightGain	KEYWORD1
@@ -184,7 +184,7 @@ BME280_SEA_LEVEL_HPA	LITERAL1
 # Datatypes (KEYWORD1)
 #######################################
 
-BQ27441	KEYWORD1
+SteamiBQ27441	KEYWORD1
 CurrentMeasureType	KEYWORD1
 CapacityMeasureType	KEYWORD1
 SocMeasureType	KEYWORD1
@@ -352,7 +352,7 @@ GC9A01_WHITE	LITERAL1
 # Datatypes (KEYWORD1)
 #######################################
 
-ISM330DL	KEYWORD1
+SteamiISM330DL	KEYWORD1
 AccelOdr	KEYWORD1
 AccelScale	KEYWORD1
 GyroOdr	KEYWORD1
@@ -473,7 +473,7 @@ STABLE	LITERAL1
 # Class
 #######################################
 
-LIS2MDL	KEYWORD1
+SteamiLIS2MDL	KEYWORD1
 
 #######################################
 # Public methods
@@ -549,7 +549,7 @@ LIS2MDL_TEMP_OFFSET	LITERAL1
 # Datatypes (KEYWORD1)
 #######################################
 
-MCP23009E	KEYWORD1
+SteamiMCP23009E	KEYWORD1
 MCP23009Config	KEYWORD1
 MCP23009Pin	KEYWORD1
 MCP23009ActiveLowPin	KEYWORD1
@@ -646,7 +646,7 @@ MCP23009_GPIO8	LITERAL1
 #######################################
 
 SSD1327	KEYWORD1
-WS_OLED_128X128_STEAMI	KEYWORD1
+SteamiSSD1327	KEYWORD1
 WS_OLED_128X128_I2C	KEYWORD1
 WS_OLED_128X128_SPI	KEYWORD1
 
@@ -714,7 +714,7 @@ incrementBootCount	KEYWORD2
 # Class
 #######################################
 
-VL53L1X	KEYWORD1
+SteamiVL53L1X	KEYWORD1
 
 #######################################
 # Public methods
@@ -746,7 +746,7 @@ DEFAULT_CONFIG	LITERAL1
 # Datatypes (KEYWORD1)
 #######################################
 
-WsenHids	KEYWORD1
+SteamiWsenHids	KEYWORD1
 ReadResult	KEYWORD1
 
 #######################################
@@ -783,14 +783,14 @@ WSEN_HIDS_ODR_1_HZ	LITERAL1
 WSEN_HIDS_ODR_7_HZ	LITERAL1
 WSEN_HIDS_ODR_12_5_HZ	LITERAL1
 #######################################
-# Syntax Coloring Map for WSEN_PADS
+# Syntax Coloring Map for WSEN-PADS
 #######################################
 
 #######################################
 # Class
 #######################################
 
-WSEN_PADS	KEYWORD1
+SteamiWsenPads	KEYWORD1
 
 #######################################
 # Public methods
