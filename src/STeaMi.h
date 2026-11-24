@@ -8,6 +8,7 @@
 #include "LIS2MDL.h"
 #include "MCP23009E.h"
 #include "SSD1327.h"
+#include "SteamiBME280.h"
 #include "SteamiConfig.h"
 #include "SteamiDaplinkBridge.h"
 #include "SteamiDaplinkFlash.h"
