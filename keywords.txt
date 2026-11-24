@@ -1,0 +1,654 @@
+#######################################
+# Syntax Coloring Map For APDS9960
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+APDS9960	KEYWORD1
+Gesture	KEYWORD1
+Mode	KEYWORD1
+AmbientLightGain	KEYWORD1
+ProximityGain	KEYWORD1
+GestureGain	KEYWORD1
+LedDrive	KEYWORD1
+LedBoost	KEYWORD1
+GestureWaitTime	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+
+setMode	KEYWORD2
+mode	KEYWORD2
+
+enableLightSensor	KEYWORD2
+disableLightSensor	KEYWORD2
+enableProximitySensor	KEYWORD2
+disableProximitySensor	KEYWORD2
+enableGestureSensor	KEYWORD2
+disableGestureSensor	KEYWORD2
+
+ambientLight	KEYWORD2
+redLight	KEYWORD2
+greenLight	KEYWORD2
+blueLight	KEYWORD2
+proximity	KEYWORD2
+
+lightReady	KEYWORD2
+proximityReady	KEYWORD2
+dataReady	KEYWORD2
+
+gestureAvailable	KEYWORD2
+readGesture	KEYWORD2
+
+setAmbientLightGain	KEYWORD2
+ambientLightGain	KEYWORD2
+setProximityGain	KEYWORD2
+proximityGain	KEYWORD2
+setGestureGain	KEYWORD2
+gestureGain	KEYWORD2
+
+setLedDrive	KEYWORD2
+ledDrive	KEYWORD2
+setGestureLedDrive	KEYWORD2
+gestureLedDrive	KEYWORD2
+setLedBoost	KEYWORD2
+ledBoost	KEYWORD2
+
+setGestureWaitTime	KEYWORD2
+gestureWaitTime	KEYWORD2
+
+setGestureEnterThreshold	KEYWORD2
+gestureEnterThreshold	KEYWORD2
+setGestureExitThreshold	KEYWORD2
+gestureExitThreshold	KEYWORD2
+
+setLightInterruptLowThreshold	KEYWORD2
+lightInterruptLowThreshold	KEYWORD2
+setLightInterruptHighThreshold	KEYWORD2
+lightInterruptHighThreshold	KEYWORD2
+
+setProximityInterruptLowThreshold	KEYWORD2
+proximityInterruptLowThreshold	KEYWORD2
+setProximityInterruptHighThreshold	KEYWORD2
+proximityInterruptHighThreshold	KEYWORD2
+
+setAmbientLightInterrupt	KEYWORD2
+ambientLightInterruptEnabled	KEYWORD2
+clearAmbientLightInterrupt	KEYWORD2
+
+setProximityInterrupt	KEYWORD2
+proximityInterruptEnabled	KEYWORD2
+clearProximityInterrupt	KEYWORD2
+
+setGestureInterrupt	KEYWORD2
+gestureInterruptEnabled	KEYWORD2
+
+setGestureMode	KEYWORD2
+gestureModeEnabled	KEYWORD2
+
+setProximityGainCompensation	KEYWORD2
+proximityGainCompensationEnabled	KEYWORD2
+setProximityPhotodiodeMask	KEYWORD2
+proximityPhotodiodeMask	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+APDS9960_DEFAULT_ADDRESS	LITERAL1
+APDS9960_DEVICE_ID_1	LITERAL1
+APDS9960_DEVICE_ID_2	LITERAL1
+APDS9960_DEVICE_ID_3	LITERAL1
+#######################################
+# Syntax Coloring Map For BQ27441
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+BQ27441	KEYWORD1
+CurrentMeasureType	KEYWORD1
+CapacityMeasureType	KEYWORD1
+SocMeasureType	KEYWORD1
+SohMeasureType	KEYWORD1
+TempMeasureType	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+currentAverage	KEYWORD2
+stateOfCharge	KEYWORD2
+stateOfHealth	KEYWORD2
+voltageMv	KEYWORD2
+temperature	KEYWORD2
+capacityFull	KEYWORD2
+capacityRemaining	KEYWORD2
+power	KEYWORD2
+temperatureK	KEYWORD2
+temperatureDk	KEYWORD2
+setCapacity	KEYWORD2
+setGpoutPolarity	KEYWORD2
+gpoutPolarity	KEYWORD2
+gpoutFunction	KEYWORD2
+deviceId	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+BQ27441_I2C_ADDRESS	LITERAL1
+BQ27441_DEVICE_ID	LITERAL1
+LIPO_BATTERY_CAPACITY	LITERAL1
+#######################################
+# Syntax Coloring Map for DaplinkBridge
+#######################################
+
+#######################################
+# Class
+#######################################
+
+DaplinkBridge	KEYWORD1
+
+#######################################
+# Public methods
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+busy	KEYWORD2
+clearConfig	KEYWORD2
+writeConfig	KEYWORD2
+readConfig	KEYWORD2
+
+#######################################
+# Public constants
+#######################################
+
+DAPLINK_BRIDGE_DEFAULT_ADDR	LITERAL1
+DAPLINK_BRIDGE_CONFIG_SIZE	LITERAL1
+DAPLINK_BRIDGE_MAX_WRITE_CHUNK	LITERAL1
+#######################################
+# Syntax Coloring Map For ISM330DL
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+ISM330DL	KEYWORD1
+AccelOdr	KEYWORD1
+AccelScale	KEYWORD1
+GyroOdr	KEYWORD1
+GyroScale	KEYWORD1
+Orientation	KEYWORD1
+MotionType	KEYWORD1
+RawVector	KEYWORD1
+Vector3	KEYWORD1
+Motion	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+isConnected	KEYWORD2
+softReset	KEYWORD2
+configureAccel	KEYWORD2
+configureGyro	KEYWORD2
+accelerationRaw	KEYWORD2
+gyroscopeRaw	KEYWORD2
+temperatureRaw	KEYWORD2
+accelerationG	KEYWORD2
+accelerationMs2	KEYWORD2
+gyroscopeDps	KEYWORD2
+gyroscopeRads	KEYWORD2
+temperature	KEYWORD2
+setAccelOffset	KEYWORD2
+accelOffset	KEYWORD2
+setTemperatureOffset	KEYWORD2
+calibrateTemperature	KEYWORD2
+orientation	KEYWORD2
+motion	KEYWORD2
+orientationToString	KEYWORD2
+motionToString	KEYWORD2
+status	KEYWORD2
+accelReady	KEYWORD2
+gyroReady	KEYWORD2
+temperatureReady	KEYWORD2
+dataReady	KEYWORD2
+powerOff	KEYWORD2
+powerOn	KEYWORD2
+
+#######################################
+# Constants and Enum Values (LITERAL1)
+#######################################
+
+ISM330DL_I2C_ADDR_LOW	LITERAL1
+ISM330DL_I2C_ADDR_HIGH	LITERAL1
+ISM330DL_DEFAULT_ADDRESS	LITERAL1
+ISM330DL_WHO_AM_I_VALUE	LITERAL1
+
+ISM330DL_REG_WHO_AM_I	LITERAL1
+ISM330DL_REG_CTRL1_XL	LITERAL1
+ISM330DL_REG_CTRL2_G	LITERAL1
+ISM330DL_REG_CTRL3_C	LITERAL1
+ISM330DL_REG_STATUS	LITERAL1
+ISM330DL_REG_OUT_TEMP_L	LITERAL1
+ISM330DL_REG_OUTX_L_G	LITERAL1
+ISM330DL_REG_OUTX_L_XL	LITERAL1
+
+ISM330DL_CTRL3_C_BDU	LITERAL1
+ISM330DL_CTRL3_C_IF_INC	LITERAL1
+ISM330DL_CTRL3_C_SW_RESET	LITERAL1
+
+ISM330DL_STATUS_TDA	LITERAL1
+ISM330DL_STATUS_GDA	LITERAL1
+ISM330DL_STATUS_XLDA	LITERAL1
+ISM330DL_STATUS_ALL_READY	LITERAL1
+
+ISM330DL_STANDARD_GRAVITY	LITERAL1
+ISM330DL_DEG_TO_RAD	LITERAL1
+ISM330DL_TEMP_SENSITIVITY	LITERAL1
+ISM330DL_TEMP_OFFSET	LITERAL1
+
+POWER_DOWN	LITERAL1
+HZ_12_5	LITERAL1
+HZ_26	LITERAL1
+HZ_52	LITERAL1
+HZ_104	LITERAL1
+HZ_208	LITERAL1
+HZ_416	LITERAL1
+HZ_833	LITERAL1
+HZ_1660	LITERAL1
+
+G_2	LITERAL1
+G_4	LITERAL1
+G_8	LITERAL1
+G_16	LITERAL1
+
+DPS_125	LITERAL1
+DPS_250	LITERAL1
+DPS_500	LITERAL1
+DPS_1000	LITERAL1
+DPS_2000	LITERAL1
+
+SCREEN_DOWN	LITERAL1
+SCREEN_UP	LITERAL1
+TOP_EDGE_DOWN	LITERAL1
+BOTTOM_EDGE_DOWN	LITERAL1
+RIGHT_EDGE_DOWN	LITERAL1
+LEFT_EDGE_DOWN	LITERAL1
+MOVING	LITERAL1
+
+TURNING_RIGHT	LITERAL1
+TURNING_LEFT	LITERAL1
+TILTING_LEFT	LITERAL1
+TILTING_RIGHT	LITERAL1
+TILTING_DOWN	LITERAL1
+TILTING_UP	LITERAL1
+STABLE	LITERAL1
+#######################################
+# Syntax Coloring Map for LIS2MDL
+#######################################
+
+#######################################
+# Class
+#######################################
+
+LIS2MDL	KEYWORD1
+
+#######################################
+# Public methods
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+softReset	KEYWORD2
+reboot	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+isIdle	KEYWORD2
+getMode	KEYWORD2
+
+magneticField	KEYWORD2
+magneticFieldRaw	KEYWORD2
+magneticFieldUt	KEYWORD2
+calibratedField	KEYWORD2
+magnitudeUt	KEYWORD2
+readAll	KEYWORD2
+dataReady	KEYWORD2
+status	KEYWORD2
+readIntSource	KEYWORD2
+
+temperature	KEYWORD2
+readTemperatureRaw	KEYWORD2
+setTempOffset	KEYWORD2
+calibrateTemperature	KEYWORD2
+
+setContinuous	KEYWORD2
+triggerOneShot	KEYWORD2
+readOneShot	KEYWORD2
+setOdr	KEYWORD2
+
+setCalibrateStep	KEYWORD2
+calibrateMinmax2d	KEYWORD2
+calibrateMinmax3d	KEYWORD2
+calibrateApply	KEYWORD2
+calibrateQuality	KEYWORD2
+calibrateReset	KEYWORD2
+calibrateStep	KEYWORD2
+readHwOffsets	KEYWORD2
+setHwOffsets	KEYWORD2
+
+headingFlatOnly	KEYWORD2
+headingFromVectors	KEYWORD2
+headingWithTiltCompensation	KEYWORD2
+setHeadingOffset	KEYWORD2
+setDeclination	KEYWORD2
+setHeadingFilter	KEYWORD2
+directionLabel	KEYWORD2
+
+setLowPower	KEYWORD2
+setLowPass	KEYWORD2
+setOffsetCancellation	KEYWORD2
+setBdu	KEYWORD2
+setEndianness	KEYWORD2
+useSpi4wire	KEYWORD2
+
+#######################################
+# Public constants
+#######################################
+
+LIS2MDL_I2C_ADDR	LITERAL1
+LIS2MDL_WHO_AM_I_VAL	LITERAL1
+LIS2MDL_TEMP_SENSITIVITY	LITERAL1
+LIS2MDL_TEMP_OFFSET	LITERAL1
+#######################################
+# Syntax Coloring Map For MCP23009E
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+MCP23009E	KEYWORD1
+MCP23009Config	KEYWORD1
+MCP23009Pin	KEYWORD1
+MCP23009ActiveLowPin	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+reset	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+setup	KEYWORD2
+setLevel	KEYWORD2
+getLevel	KEYWORD2
+setIodir	KEYWORD2
+getIodir	KEYWORD2
+setIpol	KEYWORD2
+getIpol	KEYWORD2
+setGpinten	KEYWORD2
+getGpinten	KEYWORD2
+setDefval	KEYWORD2
+getDefval	KEYWORD2
+setIntcon	KEYWORD2
+getIntcon	KEYWORD2
+setIocon	KEYWORD2
+getIocon	KEYWORD2
+setGppu	KEYWORD2
+getGppu	KEYWORD2
+getIntf	KEYWORD2
+getIntcap	KEYWORD2
+setGpio	KEYWORD2
+getGpio	KEYWORD2
+setOlat	KEYWORD2
+getOlat	KEYWORD2
+interruptOnChange	KEYWORD2
+interruptOnFalling	KEYWORD2
+interruptOnRaising	KEYWORD2
+disableInterrupt	KEYWORD2
+interruptEvent	KEYWORD2
+setSeqop	KEYWORD2
+clearSeqop	KEYWORD2
+hasSeqop	KEYWORD2
+setOdr	KEYWORD2
+clearOdr	KEYWORD2
+hasOdr	KEYWORD2
+setIntpol	KEYWORD2
+clearIntpol	KEYWORD2
+hasIntpol	KEYWORD2
+setIntcc	KEYWORD2
+clearIntcc	KEYWORD2
+hasIntcc	KEYWORD2
+getRegisterValue	KEYWORD2
+init	KEYWORD2
+value	KEYWORD2
+on	KEYWORD2
+off	KEYWORD2
+toggle	KEYWORD2
+irq	KEYWORD2
+mode	KEYWORD2
+pull	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+MCP23009_I2C_ADDR	LITERAL1
+MCP23009_DIR_INPUT	LITERAL1
+MCP23009_DIR_OUTPUT	LITERAL1
+MCP23009_PULLUP	LITERAL1
+MCP23009_NO_PULLUP	LITERAL1
+MCP23009_POL_SAME	LITERAL1
+MCP23009_POL_INVERTED	LITERAL1
+MCP23009_LOGIC_LOW	LITERAL1
+MCP23009_LOGIC_HIGH	LITERAL1
+MCP23009_BTN_UP	LITERAL1
+MCP23009_BTN_DOWN	LITERAL1
+MCP23009_BTN_LEFT	LITERAL1
+MCP23009_BTN_RIGHT	LITERAL1
+MCP23009_GPIO1	LITERAL1
+MCP23009_GPIO2	LITERAL1
+MCP23009_GPIO3	LITERAL1
+MCP23009_GPIO4	LITERAL1
+MCP23009_GPIO5	LITERAL1
+MCP23009_GPIO6	LITERAL1
+MCP23009_GPIO7	LITERAL1
+MCP23009_GPIO8	LITERAL1
+#######################################
+# Syntax Coloring Map for SSD1327
+#######################################
+
+#######################################
+# Classes
+#######################################
+
+SSD1327	KEYWORD1
+WS_OLED_128X128_STEAMI	KEYWORD1
+WS_OLED_128X128_I2C	KEYWORD1
+WS_OLED_128X128_SPI	KEYWORD1
+
+#######################################
+# Public methods
+#######################################
+
+begin	KEYWORD2
+show	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+
+fill	KEYWORD2
+pixel	KEYWORD2
+line	KEYWORD2
+fillRect	KEYWORD2
+scroll	KEYWORD2
+text	KEYWORD2
+width	KEYWORD2
+height	KEYWORD2
+
+contrast	KEYWORD2
+invert	KEYWORD2
+rotate	KEYWORD2
+
+#######################################
+# Public constants
+#######################################
+
+SET_COL_ADDR	LITERAL1
+SET_CONTRAST	LITERAL1
+SET_DISP	LITERAL1
+SET_DISP_MODE_NORMAL	LITERAL1
+SET_DISP_MODE_INVERSE	LITERAL1
+REG_CMD	LITERAL1
+REG_DATA	LITERAL1
+#######################################
+# Syntax Coloring Map for VL53L1X
+#######################################
+
+#######################################
+# Class
+#######################################
+
+VL53L1X	KEYWORD1
+
+#######################################
+# Public methods
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+reset	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+
+startRanging	KEYWORD2
+stopRanging	KEYWORD2
+dataReady	KEYWORD2
+distanceMm	KEYWORD2
+read	KEYWORD2
+
+#######################################
+# Public constants
+#######################################
+
+VL53L1X_I2C_DEFAULT_ADDR	LITERAL1
+DEFAULT_CONFIG	LITERAL1
+#######################################
+# Syntax Coloring Map For WSEN-HIDS
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+WsenHids	KEYWORD1
+ReadResult	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+reboot	KEYWORD2
+softReset	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+dataReady	KEYWORD2
+temperatureReady	KEYWORD2
+humidityReady	KEYWORD2
+temperature	KEYWORD2
+humidity	KEYWORD2
+read	KEYWORD2
+setContinuous	KEYWORD2
+triggerOneShot	KEYWORD2
+readOneShot	KEYWORD2
+setAveraging	KEYWORD2
+setTemperatureOffset	KEYWORD2
+calibrateTemperature	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+WSEN_HIDS_DEFAULT_ADDRESS	LITERAL1
+WSEN_HIDS_WHO_AM_I_VALUE	LITERAL1
+WSEN_HIDS_ODR_ONE_SHOT	LITERAL1
+WSEN_HIDS_ODR_1_HZ	LITERAL1
+WSEN_HIDS_ODR_7_HZ	LITERAL1
+WSEN_HIDS_ODR_12_5_HZ	LITERAL1
+#######################################
+# Syntax Coloring Map for WSEN_PADS
+#######################################
+
+#######################################
+# Class
+#######################################
+
+WSEN_PADS	KEYWORD1
+
+#######################################
+# Public methods
+#######################################
+
+begin	KEYWORD2
+deviceId	KEYWORD2
+softReset	KEYWORD2
+reboot	KEYWORD2
+powerOn	KEYWORD2
+powerOff	KEYWORD2
+
+pressureHpa	KEYWORD2
+temperature	KEYWORD2
+read	KEYWORD2
+dataReady	KEYWORD2
+pressureReady	KEYWORD2
+temperatureReady	KEYWORD2
+
+setContinuous	KEYWORD2
+triggerOneShot	KEYWORD2
+readOneShot	KEYWORD2
+
+setTemperatureOffset	KEYWORD2
+calibrateTemperature	KEYWORD2
+
+enableLowPass	KEYWORD2
+disableLowPass	KEYWORD2
+enableLowNoise	KEYWORD2
+disableLowNoise	KEYWORD2
+
+#######################################
+# Public constant
+#######################################
+
+WSEN_PADS_I2C_DEFAULT_ADDR	LITERAL1
+WSEN_PADS_I2C_ADDR_SAO_LOW	LITERAL1
+
+ODR_1_HZ	LITERAL1
+ODR_10_HZ	LITERAL1
+ODR_25_HZ	LITERAL1
+ODR_50_HZ	LITERAL1
+ODR_75_HZ	LITERAL1
+ODR_100_HZ	LITERAL1
+ODR_200_HZ	LITERAL1
+
+PRESSURE_HPA_PER_DIGIT	LITERAL1
+TEMPERATURE_C_PER_DIGIT	LITERAL1
