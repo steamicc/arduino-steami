@@ -583,6 +583,7 @@ getIntf	KEYWORD2
 getIntcap	KEYWORD2
 setGpio	KEYWORD2
 getGpio	KEYWORD2
+gpio	KEYWORD2
 setOlat	KEYWORD2
 getOlat	KEYWORD2
 interruptOnChange	KEYWORD2
@@ -707,6 +708,16 @@ SteamiHumidity	KEYWORD1
 SteamiPressure	KEYWORD1
 SteamiDistance	KEYWORD1
 SteamiBattery	KEYWORD1
+SteamiAccelerometer	KEYWORD1
+SteamiGyroscope	KEYWORD1
+SteamiMagnetometer	KEYWORD1
+SteamiCompass	KEYWORD1
+SteamiLight	KEYWORD1
+SteamiColor	KEYWORD1
+SteamiGesture	KEYWORD1
+SteamiButtons	KEYWORD1
+SteamiVector	KEYWORD1
+SteamiButton	KEYWORD1
 
 #######################################
 # Methods and Functions (KEYWORD2)
@@ -759,6 +770,22 @@ error	KEYWORD2
 chip	KEYWORD2
 calibrate	KEYWORD2
 calibrated	KEYWORD2
+x	KEYWORD2
+y	KEYWORD2
+z	KEYWORD2
+strength	KEYWORD2
+isShaken	KEYWORD2
+heading	KEYWORD2
+direction	KEYWORD2
+setDeclination	KEYWORD2
+red	KEYWORD2
+green	KEYWORD2
+blue	KEYWORD2
+name	KEYWORD2
+isPressed	KEYWORD2
+wasPressed	KEYWORD2
+wasReleased	KEYWORD2
+waitForPress	KEYWORD2
 SteamiConfig	KEYWORD1
 TemperatureCalibration	KEYWORD1
 MagnetometerCalibration	KEYWORD1
