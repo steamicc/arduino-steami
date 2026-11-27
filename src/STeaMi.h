@@ -23,6 +23,7 @@
 #include "SteamiGesture.h"
 #include "SteamiGyroscope.h"
 #include "SteamiHandle.h"
+#include "SteamiHistory.h"
 #include "SteamiHumidity.h"
 #include "SteamiIMP34DT05.h"
 #include "SteamiISM330DL.h"
