@@ -5,7 +5,7 @@ sensors, D-PAD, battery gauge and display, plus BLE examples.
 
 This repository is generated from
 [`steamicc/arduino-steami-lib`](https://github.com/steamicc/arduino-steami-lib)
-v0.44.0. Do not edit it here: issues and pull requests go to the upstream
+v0.45.0. Do not edit it here: issues and pull requests go to the upstream
 repository.
 
 ## Installation
